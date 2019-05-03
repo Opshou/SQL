@@ -20,7 +20,7 @@ Finding winner of a soccer league. 2 tables:
 |    ...    |     ...    |     ...    |     ...     |
 
 **_Objective:_** 
-Create a table with a classification of the teams and their total points. The conditions are:
+Create a table with a classification -in descending order- of the teams -in alphabetical order- and their total points. The conditions are:
 - Each time a team wins it earns 3 points.
 - Each time a team ties it earns 1 point.
 - Each time a team loses it earns 0 points.
