@@ -1,7 +1,7 @@
 # SQL
 Finding winner of a soccer league. 2 tables:
 
-#####Table 1: teams
+**Table 1: _teams_**
 
 | team_name | team_id |
 |-----------|---------|
@@ -10,7 +10,7 @@ Finding winner of a soccer league. 2 tables:
 |   Team 3  |    1    |
 |     ...   |   ...   |
 
-#####Table 2: matches
+**Table 2: _matches_**
  
 | host_team | guest_team | host_goals | guest_goals |
 |-----------|------------|------------|-------------|
@@ -19,14 +19,14 @@ Finding winner of a soccer league. 2 tables:
 |     1     |      3     |       2    |       3     |
 |    ...    |     ...    |     ...    |     ...     |
 
-###Objective: 
+**_Objective:_** 
 Create a table with a classification of the teams and their total points. The conditions are:
 - Each time a team wins it earns 3 points.
 - Each time a team ties it earns 1 point.
 - Each time a team loses it earns 0 points.
 
 
-#####Final Table: *final*
+**Final Table: _final_**
 
 |  team_id  |  team_name | num_points |
 |-----------|------------|------------|
